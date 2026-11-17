@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "<yash2303117>/my-web-app"
+        DOCKER_IMAGE = "yash2303117/my-web-app"
         CONTAINER_NAME = "my-web-app-container"
     }
 
